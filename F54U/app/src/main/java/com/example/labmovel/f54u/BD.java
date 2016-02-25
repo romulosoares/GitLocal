@@ -33,4 +33,5 @@ public class BD extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS" + TABELA);
         onCreate(db);
     }
+
 }
